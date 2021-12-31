@@ -1,7 +1,7 @@
 {
 	"type": "library",
 	"license": "proprietary",
-	"name": "function/majesty",
+	"name": "majesty/function",
 	"authors": [
 	{
 		"name": "Maftuh Ichsan",
