@@ -1,0 +1,28 @@
+{
+	"type": "library",
+	"license": "proprietary",
+	"name": "function/majesty",
+	"authors": [
+	{
+		"name": "Maftuh Ichsan",
+		"email": "maftuhichsan123@gmail.com",
+		"homepage": "https://github.com/maftuh23"
+	}
+	],
+	"require": {
+		"php": "^7.2"
+	},
+	"config": {
+		"preferred-install": {
+			"*": "dist"
+		},
+		"sort-packages": true,
+		"classmap-authoritative": true,
+		"optimize-autoloader": true
+	},
+	"autoload": {
+		"psr-4": {
+			"function\\": "src/"
+		}
+	}
+}
